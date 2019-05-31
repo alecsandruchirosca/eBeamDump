@@ -1,0 +1,16 @@
+/score/create/boxMesh scorer
+/score/mesh/boxSize 300 300 700 mm
+/score/mesh/nBin 30 30 7
+/score/mesh/translate/xyz 0 0 1.55 m
+#scorers 
+/score/quantity/energyDeposit eDep
+/score/quantity/doseDeposit doseDeposit
+/score/quantity/cellFlux cFlow
+/score/quantity/cellFlux pcFlow
+/score/filter/particle protonFilter proton
+/score/quantity/cellFlux gcFlow
+/score/filter/particle gammaFilter gamma
+/score/quantity/cellFlux ecFlow
+/score/filter/particle eMinusFilter e-
+/score/quantity/cellFlux ncFlow
+/score/filter/particle neutronilter neutron

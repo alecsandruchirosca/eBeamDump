@@ -1,0 +1,5 @@
+/run/initialize
+/control/execute source.mac
+/control/execute scorer.mac
+/run/beamOn 1000
+/score/dumpAllQuantitiesToFile scorer scorer.csv
